@@ -20,9 +20,7 @@ public class CCInstance
 	
 	public CCInstance(Instance instance)
 	{
-		this.id = instance.getInstanceId();
-		this.imageId = instance.getImageId();
-		status = CCInstanceStatus.getStatus(instance.getState().getCode());
+		this(instance.getInstanceId(), instance.getImageId(), CCInstanceStatus.getStatus(instance.getState().getCode()));
 	}
 	
 	public CCInstance(String id, String imageId, CCInstanceStatus status) {
