@@ -1,0 +1,48 @@
+Criar a conta
+1) o usuario ira precisar de um cartao internacional
+2) seguir o wizard da amazon e pedir para a amazon ligar para voce
+3) quando ela ligar voce digita um pin number que ela gera
+
+Depois de criar a conta
+1) criar um usuario
+2) criar as credenciais no IAM e salvar o arquivo em um local seguro.
+3) AUTORIZAR O usuario para fazer algo (colocar como administrador).Se 
+   esquecer desse passo o eclipse nao funciona.
+   Essa opcao fica no IAM--> users--> username--> Permissions
+
+No eclipse
+1) instalar ultima versao do eclipse JEE
+2) java sdk deve ter sido instalado
+3) instalar o plugin da amazon
+4) configurar o eclipse com as credenciais
+5) quando for criar o primeiro projeto ele baixa automaticamente o SDK. se esse passo falhar,
+pode fazer na mao. 
+6) depois testar os exemplos de codigo
+
+
+Criar uma instancia na amazon com o comando lauch
+1) seguir o wizard
+2) criar os grupos de seguranca necessarios (ssh para o putty, http para o apache) 
+3) criar um keypair ou usar um ja existente
+
+
+Chaves keypairs - Gerar chave para usar no putty (so para windows)
+
+1) dar o comando load no puttyGen (abrir o arquivo .pem da amazon --> all files)
+2) save private key
+3) darnome parea o arquivo
+3) o arquivo com a extensao .ppk sera criado
+
+
+No putty para conectar com a instancia
+
+1) mudar o ip da maquina
+2) na aba SSH verificar se a chave e a correta (usar a .ppk) correspondente da instancia
+3) dar um save para salvar o nome da sessao
+
+
+instalar o apache (a porta 80 deve ter sido liberada nos security groups. 
+na aba de visualizacao dos detalhes da instancia no dashboard web)
+1) conectar na instancia pelo putty
+2) sudo apt-get install apache2
+3) abrir o browser e copiar e colar o public dns ou o IP publico
