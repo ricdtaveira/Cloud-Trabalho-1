@@ -29,8 +29,9 @@ public static void main(String[] args) throws Exception {
     	
     	RunInstancesRequest runInstancesRequest = new RunInstancesRequest();
     		        	
-    	runInstancesRequest.withImageId("ami-0032e468")
-	                     .withInstanceType("t1.micro")
+    	runInstancesRequest
+    				     .withImageId("ami-0d4cfd66")
+	                     .withInstanceType("t2.micro")
 	                     .withMinCount(1)
 	                     .withMaxCount(1)
 	                     .withKeyName(credential.getKeyName())

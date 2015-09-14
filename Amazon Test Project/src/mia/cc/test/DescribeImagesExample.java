@@ -36,5 +36,6 @@ public class DescribeImagesExample {
 		{
 			System.out.println(image.toString());
 		}
+
 	}
 }
