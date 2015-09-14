@@ -1,3 +1,21 @@
+Exemplo
+{
+ImageId: ari-6500e00c,
+ImageLocation: karmic-kernel-zul/initrd.img-2.6.31-300-ec2.manifest.xml,
+State: available,
+OwnerId: 099720109477,
+CreationDate: ,
+Public: true,
+ProductCodes: [],
+Architecture: i386,
+ImageType: ramdisk,
+RootDeviceType: instance-store,
+BlockDeviceMappings: [],
+VirtualizationType: paravirtual,
+Tags: [],
+Hypervisor: xen
+}
+
 {ImageId: ari-6500e00c,ImageLocation: karmic-kernel-zul/initrd.img-2.6.31-300-ec2.manifest.xml,State: available,OwnerId: 099720109477,CreationDate: ,Public: true,ProductCodes: [],Architecture: i386,ImageType: ramdisk,RootDeviceType: instance-store,BlockDeviceMappings: [],VirtualizationType: paravirtual,Tags: [],Hypervisor: xen}
 {ImageId: ari-6591710c,ImageLocation: ec2-paid-ibm-images/initrd-2.6.16.60-0.29-xenpae.i386.manifest.xml,State: available,OwnerId: 470254534024,CreationDate: ,Public: true,ProductCodes: [],Architecture: i386,ImageType: ramdisk,ImageOwnerAlias: amazon,RootDeviceType: instance-store,BlockDeviceMappings: [],VirtualizationType: paravirtual,Tags: [],Hypervisor: xen}
 {ImageId: ari-6648a80f,ImageLocation: ec2-paid-ibm-images/initrd-2.6.16.60-0.29-xenpae.i386.manifest.xml,State: available,OwnerId: 470254534024,CreationDate: ,Public: true,ProductCodes: [{ProductCodeId: 80ED00B8,ProductCodeType: devpay}],Architecture: i386,ImageType: ramdisk,ImageOwnerAlias: amazon,RootDeviceType: instance-store,BlockDeviceMappings: [],VirtualizationType: paravirtual,Tags: [],Hypervisor: xen}
