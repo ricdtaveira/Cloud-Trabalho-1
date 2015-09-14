@@ -24,7 +24,18 @@
 		    		<div class="col-lg-4">
 		    			<p class="capitalize">1</p>
 		    			<h4>Escolha a Imagem</h4>
-		    			<p>Adicionar combo box de imagens.</p>
+		    			<p>
+		    			Adicionar combo box de imagens.
+		    			
+		    			<select name="pergunta1" class="frmCmb1">  
+						    <option value="">..</option>  
+    							<c:forEach var=image items="${images}">  
+        							<option value="${image.id}">  
+            							${artilheiros.nomeArtilheiro}  
+        							</option>  
+     						</c:forEach>  
+						</select>  
+		    			</p>
 		    		</div>
 		    		<div class="col-lg-4">
 		    			<p class="capitalize">2</p>

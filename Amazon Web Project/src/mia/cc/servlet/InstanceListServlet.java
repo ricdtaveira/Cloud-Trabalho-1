@@ -10,32 +10,30 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
-import mia.cc.control.CCImageSearch;
-import mia.cc.models.CCImage;
+import mia.cc.control.CCInstanceSearch;
+import mia.cc.models.CCInstance;
 
 /**
- * Servlet para o formulário de instâncias
- * @author Yvens
- *
+ * Servlet implementation class InstanceListServlet
  */
-@WebServlet("/InstanceFormServlet")
-public class InstanceFormServlet extends HttpServlet {
+@WebServlet("/InstanceListServlet")
+public class InstanceListServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
-
-	public InstanceFormServlet() { }
+       
+    public InstanceListServlet() { }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doPost(request, response);
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		CCImageSearch imageSearch = new CCImageSearch();
-		List<CCImage> images = imageSearch.describeImages();
+		CCInstanceSearch instanceSearch = new CCInstanceSearch();
+		List<CCInstance> instances = instanceSearch.listInstance();
 		
-		String nextJSP = "/instance_form.jsp";
+		String nextJSP = "/instance_list.jsp";
 		RequestDispatcher dispatcher = getServletContext().getRequestDispatcher(nextJSP);
 		
-		request.setAttribute("images", images);
+		request.setAttribute("instances", instances);
 		dispatcher.forward(request,response);
 	}
 

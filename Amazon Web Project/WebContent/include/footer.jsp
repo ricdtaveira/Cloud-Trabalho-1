@@ -10,8 +10,6 @@
 				<p>
 					<i class="fa fa-mobile"></i> +55 4893.8943<br/>
 					<i class="fa fa-envelope-o"></i> hello@yourdomain.com<br/>
-					<i class="fa fa-mobile"></i> +55 4893.8943<br/>
-					<i class="fa fa-envelope-o"></i> hello@yourdomain.com<br/>
 				</p>
 			</div>
 			

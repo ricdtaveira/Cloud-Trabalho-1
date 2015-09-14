@@ -18,8 +18,7 @@ import javax.servlet.http.HttpServletResponse;
 public class IndexServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
-    public IndexServlet() {
-    }
+    public IndexServlet() { }
 
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		doPost(request, response);

@@ -30,7 +30,7 @@
 			</div><!-- col-lg-4 -->
 			
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/google-datacenter-tech-03.jpg" alt="" />
+				<a class="b-link-fade b-animate-go" href="InstanceListServlet"><img width="350" src="assets/img/datacenter/google-datacenter-tech-03.jpg" alt="" />
 					<div class="b-wrapper">
 					  	<h4 class="b-from-left b-animate b-delay03">Listar Instâncias</h4>
 					  	<p class="b-from-right b-animate b-delay03">Buscar uma lista atualizada das instâncias na nuvem.</p>
