@@ -18,25 +18,29 @@
 		</div><!-- /row -->
 
 		<div class="row mt">
+		
+		</div>
+
+		<div class="row mt">
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="InstanceFormServlet"><img width="350" src="assets/img/datacenter/google-data-center-1920x1080-4-202240.jpeg" alt="" />
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/google-data-center-1920x1080-4-202240.jpeg" alt="" />
 					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Criar InstÃ¢ncia</h4>
-					  	<p class="b-from-right b-animate b-delay03">Criar novas instÃ¢ncias na nuvem.</p>
+					  	<h4 class="b-from-left b-animate b-delay03">Criar Instância</h4>
+					  	<p class="b-from-right b-animate b-delay03">Criar novas instâncias na nuvem.</p>
 					</div>
 				</a>
-				<p>Criar InstÃ¢ncia</p>
+				<p>Criar Instância</p>
 				<hr-d>
 			</div><!-- col-lg-4 -->
 			
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
 				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/google-datacenter-tech-03.jpg" alt="" />
 					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Listar InstÃ¢ncias</h4>
-					  	<p class="b-from-right b-animate b-delay03">Buscar uma lista atualizada das instÃ¢ncias na nuvem.</p>
+					  	<h4 class="b-from-left b-animate b-delay03">Listar Instâncias</h4>
+					  	<p class="b-from-right b-animate b-delay03">Buscar uma lista atualizada das instâncias na nuvem.</p>
 					</div>
 				</a>
-				<p>Listar InstÃ¢ncias</p>
+				<p>Listar Instâncias</p>
 				<hr-d>
 			</div><!-- col-lg-4 -->
 			
@@ -44,7 +48,7 @@
 				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/markleydc3.jpg" alt="" />
 					<div class="b-wrapper">
 					  	<h4 class="b-from-left b-animate b-delay03">Equipe</h4>
-					  	<p class="b-from-right b-animate b-delay03">InformaÃ§Ãµes sobre a equipe e o trabalho desenvolvido.</p>
+					  	<p class="b-from-right b-animate b-delay03">Informações sobre a equipe e o trabalho desenvolvido.</p>
 					</div>
 				</a>
 				<p>Equipe</p>
