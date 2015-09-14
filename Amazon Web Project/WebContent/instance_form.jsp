@@ -12,51 +12,36 @@
 
 		<div class="row mt centered ">
 			<div class="col-lg-4 col-lg-offset-4">
-				<h3>Painel Principal</h3>
+				<h3>Instanciar Novo Dispositivo</h3>
 				<hr>
 			</div>
 		</div><!-- /row -->
 
-		<div class="row mt">
+	<form action="InstanceFormServlet" method="POST">
+		<div id="white">
+		    <div class="container">
+		    	<div class="row mt">
+		    		<div class="col-lg-4">
+		    			<p class="capitalize">1</p>
+		    			<h4>Escolha a Imagem</h4>
+		    			<p>Adicionar combo box de imagens.</p>
+		    		</div>
+		    		<div class="col-lg-4">
+		    			<p class="capitalize">2</p>
+		    			<h4>Informa√ß√µes</h4>
+		    			<p>Tabela com as informa√ß√µes da imagem.</p>
+		    		</div>
+		    		<div class="col-lg-4">
+		    			<p class="capitalize">3</p>
+		    			<h4>Instanciar</h4>
+		    			<p>Bot√£o!</p>
+		    		</div>    	
 		
-		</div>
-
-		<div class="row mt">
-			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/google-data-center-1920x1080-4-202240.jpeg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Criar Inst‚ncia</h4>
-					  	<p class="b-from-right b-animate b-delay03">Criar novas inst‚ncias na nuvem.</p>
-					</div>
-				</a>
-				<p>Criar Inst‚ncia</p>
-				<hr-d>
-			</div><!-- col-lg-4 -->
-			
-			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/google-datacenter-tech-03.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Listar Inst‚ncias</h4>
-					  	<p class="b-from-right b-animate b-delay03">Buscar uma lista atualizada das inst‚ncias na nuvem.</p>
-					</div>
-				</a>
-				<p>Listar Inst‚ncias</p>
-				<hr-d>
-			</div><!-- col-lg-4 -->
-			
-			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/markleydc3.jpg" alt="" />
-					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Equipe</h4>
-					  	<p class="b-from-right b-animate b-delay03">InformaÁıes sobre a equipe e o trabalho desenvolvido.</p>
-					</div>
-				</a>
-				<p>Equipe</p>
-				<hr-d>
-			</div><!-- col-lg-4 -->
-			
-		</div><!-- /row -->
-	</div><!-- /container -->
+		    	</div><!-- /row -->
+		    </div><!-- /container -->
+   		</div><!-- /white -->
+	</form>
+    </div>
 	
 	<jsp:include page="include/footer.jsp" />
   
