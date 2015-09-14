@@ -4,8 +4,8 @@
 
 <html lang="pt-BR">
   <head>
-  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
 	<meta charset="utf-8">
+  	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
 	<meta http-equiv="Content-Language" content="pt-BR" >
 	<meta name="language" content="PT_BR" >
   	
@@ -49,38 +49,35 @@
 
 		<div class="row mt">
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port04.jpg" alt="" />
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/google-data-center-1920x1080-4-202240.jpeg" alt="" />
 					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Post 1</h4>
-					  	<p class="b-from-right b-animate b-delay03">Read More.</p>
+					  	<h4 class="b-from-left b-animate b-delay03">Criar Instância</h4>
+					  	<p class="b-from-right b-animate b-delay03">Criar novas instâncias na nuvem.</p>
 					</div>
 				</a>
 				<p>Criar Instância</p>
-				<p class="lead">Criar uma instância na Amazon AWS.</p>
 				<hr-d>
 			</div><!-- col-lg-4 -->
 			
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port05.jpg" alt="" />
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/google-datacenter-tech-03.jpg" alt="" />
 					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Post 2</h4>
-					  	<p class="b-from-right b-animate b-delay03">Read More.</p>
+					  	<h4 class="b-from-left b-animate b-delay03">Listar Instâncias</h4>
+					  	<p class="b-from-right b-animate b-delay03">Buscar uma lista atualizada das instâncias na nuvem.</p>
 					</div>
 				</a>
 				<p>Listar Instâncias</p>
-				<p class="lead">Listar todas as instâncias atuais.</p>
 				<hr-d>
 			</div><!-- col-lg-4 -->
 			
 			<div class="col-lg-4 col-md-4 col-xs-12 desc">
-				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port06.jpg" alt="" />
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/datacenter/markleydc3.jpg" alt="" />
 					<div class="b-wrapper">
-					  	<h4 class="b-from-left b-animate b-delay03">Post 3</h4>
-					  	<p class="b-from-right b-animate b-delay03">Read More.</p>
+					  	<h4 class="b-from-left b-animate b-delay03">Equipe</h4>
+					  	<p class="b-from-right b-animate b-delay03">Informações sobre a equipe e o trabalho desenvolvido.</p>
 					</div>
 				</a>
 				<p>Equipe</p>
-				<p class="lead">Informações sobre a equipe.</p>
 				<hr-d>
 			</div><!-- col-lg-4 -->
 			

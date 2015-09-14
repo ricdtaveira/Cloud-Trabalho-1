@@ -22,8 +22,8 @@ height:100%;
 top:0;
 left:0;
 text-align:center;
-color:#fff;
-background: #74c9be;
+color:#ffffff;
+background: #001e5e;
 visibility:hidden; /* lt-ie9 */
 }
 
@@ -113,7 +113,7 @@ height:100%;
 top:0;
 left:0;
 text-align:center;
-color:#fff;
+color:#ffffff;
 }
 .b-link-stroke .b-top-line{
 position:absolute;
@@ -121,7 +121,7 @@ top:-100%;
 left:0;
 width:50%;
 height:100%;
-background: #74c9be;
+background: #001e5e;
 }
 .b-link-stroke .b-bottom-line{
 position:absolute;
@@ -129,7 +129,7 @@ bottom:-100%;
 right:0;
 width:50%;
 height:100%;
-background: #74c9be;
+background: #001e5e;
 }
 .b-link-stroke .b-top-line, .b-link-stroke .b-bottom-line{
 transition:all 0.5s;
