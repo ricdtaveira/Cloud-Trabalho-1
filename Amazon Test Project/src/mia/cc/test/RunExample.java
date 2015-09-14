@@ -4,6 +4,10 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import mia.cc.control.credentials.CCCredential;
+import mia.cc.control.credentials.CCCredentialFactory;
+import mia.cc.models.CCInstance;
+
 import com.amazonaws.auth.AWSCredentials;
 import com.amazonaws.auth.profile.ProfileCredentialsProvider;
 import com.amazonaws.services.ec2.AmazonEC2;
@@ -16,18 +20,12 @@ import com.amazonaws.services.ec2.model.RunInstancesRequest;
 public class RunExample {
 	
 public static void main(String[] args) throws Exception {
+		CCCredential credential = CCCredentialFactory.getInstance().getCredential();
 		
-		AWSCredentials credentials = new ProfileCredentialsProvider("yvens").getCredentials();
+		AWSCredentials credentials = new ProfileCredentialsProvider(credential.getProfileCredentialsProvider()).getCredentials();
         AmazonEC2 ec2 = new AmazonEC2Client(credentials);
         
-        ec2.setEndpoint("ec2.us-east-1.amazonaws.com");
-        
-//    	CreateKeyPairRequest createKeyPairRequest = new CreateKeyPairRequest();
-//    	createKeyPairRequest.withKeyName("keyname");
-//    	CreateKeyPairResult createKeyPairResult = ec2.createKeyPair(createKeyPairRequest);
-//    	KeyPair keyPair = new KeyPair();
-//    	keyPair = createKeyPairResult.getKeyPair();
-//    	String privateKey = keyPair.getKeyMaterial();
+        ec2.setEndpoint(credential.getEndPoint());
     	
     	RunInstancesRequest runInstancesRequest = new RunInstancesRequest();
     		        	
@@ -35,8 +33,8 @@ public static void main(String[] args) throws Exception {
 	                     .withInstanceType("t1.micro")
 	                     .withMinCount(1)
 	                     .withMaxCount(1)
-	                     .withKeyName("keyname")
-	                     .withSecurityGroups("default");
+	                     .withKeyName(credential.getKeyName())
+	                     .withSecurityGroups(credential.getSecurityGroup());
 	  
     	ec2.runInstances(runInstancesRequest);
     	
@@ -51,7 +49,8 @@ public static void main(String[] args) throws Exception {
         System.out.println("Amazon EC2 instance(s): " + instances.size());
         for(Instance instance : instances)
         {
-        	System.out.println(instance);
+        	CCInstance insta = new CCInstance(instance);
+        	System.out.println(insta);
         }
     }
 

@@ -4,6 +4,8 @@ import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
+import mia.cc.control.credentials.CCCredential;
+import mia.cc.control.credentials.CCCredentialFactory;
 import mia.cc.models.CCInstance;
 
 import com.amazonaws.auth.AWSCredentials;
@@ -18,7 +20,9 @@ import com.amazonaws.services.ec2.model.Reservation;
 public class QueryExample {
 
 	public static void main(String[] args) {
-		AWSCredentials credentials = new ProfileCredentialsProvider("yvens").getCredentials();
+		CCCredential credential = CCCredentialFactory.getInstance().getCredential();
+		
+		AWSCredentials credentials = new ProfileCredentialsProvider(credential.getProfileCredentialsProvider()).getCredentials();
         AmazonEC2 ec2 = new AmazonEC2Client(credentials);
         
         DescribeAvailabilityZonesResult availabilityZonesResult = ec2.describeAvailabilityZones();
